@@ -45,7 +45,7 @@
                     tag.setAttribute(item, className[item]);
                 })
             } else {
-                new Error('请输入对象');
+                throw new Error('请输入对象');
             }
         }
         // 文本节点添加
