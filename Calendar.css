@@ -1,0 +1,84 @@
+.ui-datapicker{
+	position: absolute;
+	width: 300px;
+	box-shadow: 2px 2px 8px 2px #888;
+	z-index: 6666666;
+	margin: 5px 0;
+}
+
+.ui-datapicker-header {
+	text-align: center;
+	background: #e0ecef;
+	height: 30px;
+	line-height: 30px;
+}
+
+.ui-datapicker-header span {
+	padding: 0 30px;
+}
+
+.ui-datapicker-btn {
+	text-decoration: none;
+	font-family: serif;
+	font-weight: bold;
+	width: 20px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.ui-datapicker-btn:hover {
+	color: #f00;
+}
+
+.ui-datapicker-content table {
+	width: 100%;
+	height: 220px;
+	border-spacing: 0;
+	 border-collapse:collapse; 
+}
+
+.ui-datapicker-content table thead {
+	height: 40px;
+	line-height: 40px;
+	background: #f4f4f4;
+
+}
+
+.ui-datapicker-content table td {
+	text-align: center;
+}
+
+.ui-datapicker-content table tbody td {
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.ui-datapicker-content table tbody td:hover {
+	background: #ffe48d;
+	color: #666;
+}
+
+.ui-datapicker-content table tbody tr td:first-child {
+	border-left: none;
+}
+
+.ui-datapicker-content table tbody tr td:last-child {
+	border-right: none;
+}
+
+.myComponent-input {
+	width: 200px;
+	height: 30px;
+	padding-left: 10px;
+	outline: none;
+}
+
+.ui-datapicker-grayFont {
+	color: #ccc;
+}
+
+.ui-datapicker-nowBg {
+	background: #ffe48d;
+	color: #666;
+}
